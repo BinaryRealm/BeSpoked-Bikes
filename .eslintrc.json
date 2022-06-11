@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [
+            0
+        ],
+        "react/no-array-index-key": [
+            0
+        ],
+        "react-hooks/exhaustive-deps": [
+            0
+        ],
+        "no-alert": [
+            0
+        ],
+        "react/jsx-no-bind": [
+            0
+        ]
+    }
+}
