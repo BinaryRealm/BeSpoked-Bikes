@@ -18,19 +18,31 @@ function Navigation() {
 
   return (
     <div>
-      <Navbar bg="light" expand="lg" className="yellow-nav">
+      <Navbar bg="light" expand="lg" className="custom-nav">
         <Container>
-          <LinkContainer to="/search">
-            <Navbar.Brand className="h1 mb-0">FoodQuest</Navbar.Brand>
+          <LinkContainer to="/">
+            <Navbar.Brand className="h1 mb-0">Bespoked Bikes</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="me-auto">
-              <LinkContainer to="/search">
-                <Nav.Link>Search</Nav.Link>
+              <LinkContainer to="/salespersons">
+                <Nav.Link>Salespersons</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/recommendation">
-                <Nav.Link>Recommendation</Nav.Link>
+              <LinkContainer to="/products">
+                <Nav.Link>Products</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/customers">
+                <Nav.Link>Customers</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/sales">
+                <Nav.Link>Sales</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="new-sale">
+                <Nav.Link>New Sale</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/report">
+                <Nav.Link>Report</Nav.Link>
               </LinkContainer>
             </Nav>
             <Nav className="row justify-content-end">
